@@ -1,0 +1,376 @@
+19:56:49.899 INFO [o.Application]  Starting Application on serbatic-03979 with PID 13440 (C:\Users\fortega\Pictures\02coin\target\classes started by fortega in C:\Users\fortega\Pictures\02coin)
+19:56:49.902 DEBUG [o.Application]  Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+19:56:49.903 INFO [o.Application]  No active profile set, falling back to default profiles: default
+19:56:50.499 DEBUG [o.j.logging]  Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+19:56:51.737 DEBUG [c.v.s.i.VaadinSessionScope]  Registering VaadinSession scope with bean factory [org.springframework.beans.factory.support.DefaultListableBeanFactory@6532b326: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,application,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,transactionEditor,transactionUI,loadData,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat,tomcatEmbeddedServletContainerFactory,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration,embeddedServletContainerCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,com.vaadin.spring.boot.internal.VaadinServletConfiguration,vaadinUiForwardingHandlerMapping,vaadinUiForwardingController,vaadinServletRegistration,vaadinServlet,vaadin.servlet-com.vaadin.spring.boot.internal.VaadinServletConfigurationProperties,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinServletConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableSpringVaadinNavigatorConfiguration,vaadinNavigator,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinNavigatorConfiguration,springViewDisplayPostProcessor,com.vaadin.spring.VaadinConfiguration,vaadinSessionScope,uIScope,viewScope,viewProvider,viewCache,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration,spring.jta-org.springframework.boot.autoconfigure.transaction.jta.JtaProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat,dataSource,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration,tomcatPoolDataSourceMetadataProvider,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,dataSourceInitializer,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties,dataSourceInitializerPostProcessor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration,openEntityManagerInViewInterceptor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration,org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration,transactionManager,jpaVendorAdapter,entityManagerFactoryBuilder,entityManagerFactory,spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties,dataSourceInitializedPublisher,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration,persistenceExceptionTranslationPostProcessor,org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration,emBeanDefinitionRegistrarPostProcessor,jpaMappingContext,jpaContext,transactionRepository,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.data.web.config.ProjectingArgumentResolverRegistrar,projectingArgumentResolverBeanPostProcessor,org.springframework.data.web.config.SpringDataWebConfiguration,pageableResolver,sortResolver,org.springframework.data.web.config.SpringDataJacksonConfiguration,jacksonGeoModule,org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration,jdbcTemplate,namedParameterJdbcTemplate,org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration,org.springframework.transaction.config.internalTransactionAdvisor,transactionAttributeSource,transactionInterceptor,org.springframework.transaction.config.internalTransactionalEventListenerFactory,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration,transactionTemplate,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration,platformTransactionManagerCustomizers,spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties,org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties,org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration,serverProperties,duplicateServerPropertiesDetector,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration]; root of factory hierarchy]
+19:56:51.737 DEBUG [c.v.s.i.UIScopeImpl]  Registering Vaadin UI scope with bean factory [org.springframework.beans.factory.support.DefaultListableBeanFactory@6532b326: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,application,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,transactionEditor,transactionUI,loadData,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat,tomcatEmbeddedServletContainerFactory,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration,embeddedServletContainerCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,com.vaadin.spring.boot.internal.VaadinServletConfiguration,vaadinUiForwardingHandlerMapping,vaadinUiForwardingController,vaadinServletRegistration,vaadinServlet,vaadin.servlet-com.vaadin.spring.boot.internal.VaadinServletConfigurationProperties,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinServletConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableSpringVaadinNavigatorConfiguration,vaadinNavigator,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinNavigatorConfiguration,springViewDisplayPostProcessor,com.vaadin.spring.VaadinConfiguration,vaadinSessionScope,uIScope,viewScope,viewProvider,viewCache,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration,spring.jta-org.springframework.boot.autoconfigure.transaction.jta.JtaProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat,dataSource,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration,tomcatPoolDataSourceMetadataProvider,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,dataSourceInitializer,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties,dataSourceInitializerPostProcessor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration,openEntityManagerInViewInterceptor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration,org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration,transactionManager,jpaVendorAdapter,entityManagerFactoryBuilder,entityManagerFactory,spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties,dataSourceInitializedPublisher,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration,persistenceExceptionTranslationPostProcessor,org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration,emBeanDefinitionRegistrarPostProcessor,jpaMappingContext,jpaContext,transactionRepository,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.data.web.config.ProjectingArgumentResolverRegistrar,projectingArgumentResolverBeanPostProcessor,org.springframework.data.web.config.SpringDataWebConfiguration,pageableResolver,sortResolver,org.springframework.data.web.config.SpringDataJacksonConfiguration,jacksonGeoModule,org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration,jdbcTemplate,namedParameterJdbcTemplate,org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration,org.springframework.transaction.config.internalTransactionAdvisor,transactionAttributeSource,transactionInterceptor,org.springframework.transaction.config.internalTransactionalEventListenerFactory,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration,transactionTemplate,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration,platformTransactionManagerCustomizers,spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties,org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties,org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration,serverProperties,duplicateServerPropertiesDetector,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration]; root of factory hierarchy]
+19:56:51.738 DEBUG [c.v.s.i.ViewScopeImpl]  Registering Vaadin View scope with bean factory [org.springframework.beans.factory.support.DefaultListableBeanFactory@6532b326: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,application,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,transactionEditor,transactionUI,loadData,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat,tomcatEmbeddedServletContainerFactory,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration,embeddedServletContainerCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,com.vaadin.spring.boot.internal.VaadinServletConfiguration,vaadinUiForwardingHandlerMapping,vaadinUiForwardingController,vaadinServletRegistration,vaadinServlet,vaadin.servlet-com.vaadin.spring.boot.internal.VaadinServletConfigurationProperties,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinServletConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableSpringVaadinNavigatorConfiguration,vaadinNavigator,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinNavigatorConfiguration,springViewDisplayPostProcessor,com.vaadin.spring.VaadinConfiguration,vaadinSessionScope,uIScope,viewScope,viewProvider,viewCache,com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinConfiguration,com.vaadin.spring.boot.VaadinAutoConfiguration,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration,spring.jta-org.springframework.boot.autoconfigure.transaction.jta.JtaProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat,dataSource,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration,tomcatPoolDataSourceMetadataProvider,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,dataSourceInitializer,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties,dataSourceInitializerPostProcessor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration,openEntityManagerInViewInterceptor,org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration,org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration,transactionManager,jpaVendorAdapter,entityManagerFactoryBuilder,entityManagerFactory,spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties,dataSourceInitializedPublisher,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration,persistenceExceptionTranslationPostProcessor,org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration,emBeanDefinitionRegistrarPostProcessor,jpaMappingContext,jpaContext,transactionRepository,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.data.web.config.ProjectingArgumentResolverRegistrar,projectingArgumentResolverBeanPostProcessor,org.springframework.data.web.config.SpringDataWebConfiguration,pageableResolver,sortResolver,org.springframework.data.web.config.SpringDataJacksonConfiguration,jacksonGeoModule,org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration,jdbcTemplate,namedParameterJdbcTemplate,org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration,org.springframework.transaction.config.internalTransactionAdvisor,transactionAttributeSource,transactionInterceptor,org.springframework.transaction.config.internalTransactionalEventListenerFactory,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration,transactionTemplate,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration,platformTransactionManagerCustomizers,spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties,org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties,org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration,serverProperties,duplicateServerPropertiesDetector,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration]; root of factory hierarchy]
+19:56:52.633 INFO [o.a.c.c.StandardService]  Starting service [Tomcat]
+19:56:52.636 INFO [o.a.c.c.StandardEngine]  Starting Servlet Engine: Apache Tomcat/8.5.27
+19:56:52.758 INFO [o.a.c.c.C.[.[.[/]]  Initializing Spring embedded WebApplicationContext
+19:56:52.944 DEBUG [c.v.s.b.i.VaadinServletConfiguration]  com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$85d70b8d initialized
+19:56:52.949 INFO [c.v.s.b.i.VaadinServletConfiguration]  Registering Vaadin servlet
+19:56:52.955 INFO [c.v.s.b.i.VaadinServletConfiguration]  Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+19:56:53.001 INFO [c.v.s.b.i.VaadinServletConfiguration]  Setting servlet init parameters
+19:56:53.004 INFO [c.v.s.b.i.VaadinServletConfiguration]  Set servlet init parameter [productionMode] = [false]
+19:56:53.007 INFO [c.v.s.b.i.VaadinServletConfiguration]  Set servlet init parameter [resourceCacheTime] = [3600]
+19:56:53.010 INFO [c.v.s.b.i.VaadinServletConfiguration]  Set servlet init parameter [heartbeatInterval] = [300]
+19:56:53.011 INFO [c.v.s.b.i.VaadinServletConfiguration]  Set servlet init parameter [closeIdleSessions] = [false]
+19:56:55.700 INFO [c.v.s.b.i.VaadinServletConfiguration]  Checking the application context for Vaadin UI mappings
+19:56:55.709 INFO [c.v.s.b.i.VaadinServletConfiguration]  Registering Vaadin servlet of type [com.vaadin.spring.server.SpringVaadinServlet]
+19:56:55.733 INFO [c.v.s.b.i.VaadinServletConfiguration]  Forwarding @SpringUI URLs from {/=org.springframework.web.servlet.mvc.ServletForwardingController@28605470}
+19:56:55.740 DEBUG [c.v.s.b.VaadinAutoConfiguration]  com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinServletConfiguration$$EnhancerBySpringCGLIB$$b402c001 initialized
+19:56:55.757 DEBUG [c.v.s.b.VaadinAutoConfiguration]  com.vaadin.spring.boot.VaadinAutoConfiguration$EnableSpringVaadinNavigatorConfiguration$$EnhancerBySpringCGLIB$$991f157c initialized
+19:56:55.779 DEBUG [c.v.s.b.VaadinAutoConfiguration]  com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinNavigatorConfiguration$$EnhancerBySpringCGLIB$$13cc552f initialized
+19:56:55.784 DEBUG [c.v.s.b.VaadinAutoConfiguration]  com.vaadin.spring.boot.VaadinAutoConfiguration$EnableVaadinConfiguration$$EnhancerBySpringCGLIB$$ad9c1968 initialized
+19:56:56.145 INFO [o.a.c.h.Http11NioProtocol]  Initializing ProtocolHandler ["http-nio-8080"]
+19:56:56.187 INFO [o.a.c.h.Http11NioProtocol]  Starting ProtocolHandler ["http-nio-8080"]
+19:56:56.227 INFO [o.a.t.u.n.NioSelectorPool]  Using a shared selector for servlet write/read
+19:56:56.351 INFO [general]  Config ( yes ): default properties from resource 'ethereumj.conf'
+19:56:56.355 INFO [general]  Config ( no  ): user properties from -Dethereumj.conf.res resource 'null'
+19:56:56.358 INFO [general]  Config ( no  ): user properties from resource 'user.conf'
+19:56:56.368 INFO [general]  Config ( no  ): user properties from file 'C:\Users\fortega\Pictures\02coin\config\ethereumj.conf'
+19:56:56.371 INFO [general]  Config ( no  ): test properties from resource 'test-ethereumj.conf'
+19:56:56.375 INFO [general]  Config ( no  ): test properties from resource 'test-user.conf'
+19:56:56.376 INFO [general]  Config ( no  ): user properties from -Dethereumj.conf.file file 'null'
+19:56:56.385 INFO [general]  Config ( no  ): config passed via constructor
+19:56:56.395 DEBUG [general]  Config trace: # ethereumj.conf: 164-415
+blockchain {
+    # ethereumj.conf: 164
+    config {
+        # ethereumj.conf: 164
+        name=main
+    }
+    # ethereumj.conf: 415
+    only=false
+}
+# ethereumj.conf: 421
+blocks {
+    # ethereumj.conf: 421
+    loader=""
+}
+# ethereumj.conf: 211
+cache {
+    # ethereumj.conf: 232
+    blockQueueSize=32
+    # ethereumj.conf: 213
+    flush {
+        # ethereumj.conf: 222
+        blocks=0
+        # ethereumj.conf: 225
+        shortSyncFlush=true
+        # ethereumj.conf: 217
+        writeCacheSize=64
+    }
+    # ethereumj.conf: 235
+    headerQueueSize=8
+    # ethereumj.conf: 241
+    maxStateBloomSize=128
+    # ethereumj.conf: 229
+    stateCacheSize=256
+}
+# ethereumj.conf: 424
+crypto {
+    # ethereumj.conf: 428-429
+    hash {
+        # ethereumj.conf: 428
+        alg256=ETH-KECCAK-256
+        # ethereumj.conf: 429
+        alg512=ETH-KECCAK-512
+    }
+    # ethereumj.conf: 426
+    providerName=SC
+}
+# ethereumj.conf: 172
+database {
+    # ethereumj.conf: 175
+    dir=database
+    # ethereumj.conf: 194
+    incompatibleDatabaseBehavior=EXIT
+    # ethereumj.conf: 200
+    prune {
+        # ethereumj.conf: 201
+        enabled=true
+        # ethereumj.conf: 206
+        maxDepth=192
+    }
+    # ethereumj.conf: 181
+    reset=false
+    # ethereumj.conf: 187
+    resetBlock=0
+}
+# ethereumj.conf: 344
+dump {
+    # ethereumj.conf: 357
+    block=-1
+    # ethereumj.conf: 361
+    clean {
+        # ethereumj.conf: 361
+        on {
+            # ethereumj.conf: 361
+            restart=true
+        }
+    }
+    # ethereumj.conf: 351
+    dir=dmp
+    # ethereumj.conf: 350
+    full=false
+    # ethereumj.conf: 358
+    style=pretty
+}
+# ethereumj.conf: 150
+genesis="frontier.json"
+# ethereumj.conf: 397
+hello {
+    # ethereumj.conf: 397
+    phrase=Dev
+}
+# ethereumj.conf: 412
+keyvalue {
+    # ethereumj.conf: 412
+    datasource=leveldb
+}
+# ethereumj.conf: 283
+mine {
+    # ethereumj.conf: 302
+    coinbase="0000000000000000000000000000000000000000"
+    # ethereumj.conf: 293
+    cpuMineThreads=4
+    # ethereumj.conf: 306
+    extraData="EthereumJ powered"
+    # ethereumj.conf: 299
+    fullDataSet=true
+    # ethereumj.conf: 315
+    minBlockTimeoutMsec=0
+    # ethereumj.conf: 312
+    minGasPrice=15000000000
+    # ethereumj.conf: 289
+    start=false
+    # ethereumj.conf: 319
+    startNonce=null
+}
+# ethereumj.conf: 1-77
+peer {
+    # ethereumj.conf: 92
+    active=[]
+    # ethereumj.conf: 121
+    capabilities=[
+        # ethereumj.conf: 121
+        eth
+    ]
+    # ethereumj.conf: 130
+    channel {
+        # ethereumj.conf: 130
+        read {
+            # ethereumj.conf: 130
+            timeout=90
+        }
+    }
+    # ethereumj.conf: 125
+    connection {
+        # ethereumj.conf: 125
+        timeout=2
+    }
+    # ethereumj.conf: 1
+    discovery {
+        # ethereumj.conf: 52
+        bind {
+            # ethereumj.conf: 52
+            ip=""
+        }
+        # ethereumj.conf: 8
+        enabled=true
+        # ethereumj.conf: 44
+        external {
+            # ethereumj.conf: 44
+            ip=null
+        }
+        # ethereumj.conf: 13
+        ip {
+            # ethereumj.conf: 13
+            list=[
+                # ethereumj.conf: 15
+                "5.1.83.226:30303",
+                # ethereumj.conf: 18
+                "52.16.188.185:30303",
+                # ethereumj.conf: 19
+                "13.93.211.84:30303",
+                # ethereumj.conf: 20
+                "191.235.84.50:30303",
+                # ethereumj.conf: 21
+                "13.75.154.138:30303",
+                # ethereumj.conf: 22
+                "52.74.57.123:30303",
+                # ethereumj.conf: 25
+                "163.172.187.252:30303",
+                # ethereumj.conf: 26
+                "163.172.157.114:30303",
+                # ethereumj.conf: 27
+                "136.243.154.244:30303",
+                # ethereumj.conf: 28
+                "88.212.206.70:30303",
+                # ethereumj.conf: 29
+                "37.128.191.230:30303",
+                # ethereumj.conf: 30
+                "46.20.235.22:30303",
+                # ethereumj.conf: 31
+                "216.158.85.185:30303",
+                # ethereumj.conf: 32
+                "212.47.247.103:30303",
+                # ethereumj.conf: 33
+                "138.201.144.135:30303",
+                # ethereumj.conf: 34
+                "45.55.33.62:30303",
+                # ethereumj.conf: 35
+                "188.166.255.12:30303",
+                # ethereumj.conf: 36
+                "159.203.210.80:30303",
+                # ethereumj.conf: 37
+                "51.15.42.252:30303",
+                # ethereumj.conf: 38
+                "163.172.171.38:30303"
+            ]
+        }
+        # ethereumj.conf: 60
+        persist=true
+        # ethereumj.conf: 56
+        public {
+            # ethereumj.conf: 56
+            home {
+                # ethereumj.conf: 56
+                node=true
+            }
+        }
+        # ethereumj.conf: 69
+        touchMaxNodes=100
+        # ethereumj.conf: 65
+        touchPeriod=600
+        # ethereumj.conf: 74
+        workers=8
+    }
+    # ethereumj.conf: 80
+    listen {
+        # ethereumj.conf: 80
+        port=30303
+    }
+    # ethereumj.conf: 117
+    maxActivePeers=30
+    # ethereumj.conf: 83
+    networkId=1
+    # ethereumj.conf: 132
+    p2p {
+        # ethereumj.conf: 142
+        eip8=true
+        # ethereumj.conf: 138
+        framing {
+            # ethereumj.conf: 138
+            maxSize=32768
+        }
+    }
+    # ethereumj.conf: 103
+    trusted=[]
+}
+# ethereumj.conf: 393
+play {
+    # ethereumj.conf: 393
+    vm=true
+}
+# ethereumj.conf: 386-414
+record {
+    # ethereumj.conf: 414
+    blocks=false
+    # ethereumj.conf: 386
+    internal {
+        # ethereumj.conf: 386
+        transactions {
+            # ethereumj.conf: 386
+            data=true
+        }
+    }
+}
+# ethereumj.conf: 409
+root {
+    # ethereumj.conf: 409
+    hash {
+        # ethereumj.conf: 409
+        start=null
+    }
+}
+# ethereumj.conf: 323
+solc {
+    # ethereumj.conf: 326
+    path=null
+}
+# ethereumj.conf: 245
+sync {
+    # ethereumj.conf: 249
+    enabled=true
+    # ethereumj.conf: 279
+    exitOnBlockConflict=false
+    # ethereumj.conf: 252
+    fast {
+        # ethereumj.conf: 256
+        enabled=false
+    }
+    # ethereumj.conf: 270
+    peer {
+        # ethereumj.conf: 270
+        count=30
+    }
+}
+# ethereumj.conf: 381
+trace {
+    # ethereumj.conf: 381
+    startblock=-1
+}
+# ethereumj.conf: 338-342
+transaction {
+    # ethereumj.conf: 338
+    approve {
+        # ethereumj.conf: 338
+        timeout=15
+    }
+    # ethereumj.conf: 342
+    outdated {
+        # ethereumj.conf: 342
+        threshold=10
+    }
+}
+# ethereumj.conf: 371
+vm {
+    # ethereumj.conf: 371
+    structured {
+        # ethereumj.conf: 374
+        compressed=true
+        # ethereumj.conf: 373
+        dir=vmtrace
+        # ethereumj.conf: 375
+        initStorageLimit=10000
+        # ethereumj.conf: 372
+        trace=false
+    }
+}
+
+19:56:57.058 INFO [o.Application]  Customers found with findAll():
+19:56:57.059 INFO [o.Application]  -------------------------------
+19:56:57.274 INFO [o.Application]  O2CoinTransaction[id=1, firstName='', lastName='']
+19:56:57.274 INFO [o.Application]  O2CoinTransaction[id=2, firstName='', lastName='']
+19:56:57.281 INFO [o.Application]  O2CoinTransaction[id=3, firstName='', lastName='']
+19:56:57.284 INFO [o.Application]  O2CoinTransaction[id=4, firstName='', lastName='']
+19:56:57.286 INFO [o.Application]  O2CoinTransaction[id=5, firstName='', lastName='']
+19:56:57.289 INFO [o.Application]  
+19:56:57.335 INFO [o.Application]  O2CoinTransaction found with findOne(1L):
+19:56:57.336 INFO [o.Application]  --------------------------------
+19:56:57.343 INFO [o.Application]  O2CoinTransaction[id=1, firstName='', lastName='']
+19:56:57.344 INFO [o.Application]  
+19:56:57.345 INFO [o.Application]  O2CoinTransaction found with findByLastNameStartsWithIgnoreCase('Bauer'):
+19:56:57.347 INFO [o.Application]  --------------------------------------------
+19:56:57.415 INFO [o.Application]  
+19:56:57.421 INFO [o.Application]  Started Application in 8.018 seconds (JVM running for 16.107)
+19:56:58.320 WARN [c.v.s.DefaultDeploymentConfiguration]  
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+19:56:58.444 INFO [o.a.c.c.C.[.[.[/]]  Initializing Spring FrameworkServlet 'dispatcherServlet'
